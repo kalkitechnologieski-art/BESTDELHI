@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "trailingSlash": false,
+  "cleanUrls": false,
+  "rewrites": [
+    {
+      "source": "/robots.txt",
+      "destination": "/robots.txt"
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/sitemap.xml"
+    },
+    {
+      "source": "/agencies.html",
+      "destination": "/agencies.html"
+    },
+    {
+      "source": "/about.html",
+      "destination": "/about.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
