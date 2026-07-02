@@ -1,0 +1,2219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best Digital Marketing in India — Delhi NCR B2B Directory</title>
+    <meta name="description" content="Top digital marketing agencies across every Delhi NCR locality, city, and sector. Search, filter, and find the best agencies near you." />
+    <link rel="canonical" href="https://best-digital-marketing-in-india.vercel.app/" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Best Digital Marketing in India — Delhi NCR B2B Directory" />
+    <meta property="og:description" content="Complete B2B directory of digital marketing agencies across all Delhi NCR localities, cities, and sectors." />
+    <meta property="og:url" content="https://best-digital-marketing-in-india.vercel.app/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Schema.org Organization -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Best Digital Marketing in India",
+            "url": "https://best-digital-marketing-in-india.vercel.app",
+            "description": "B2B directory of top digital marketing agencies across Delhi NCR.",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Delhi NCR",
+                "addressCountry": "IN"
+            }
+        }
+    </script>
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <style>
+        /* ===== RESET & BASE ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0b0b1a;
+            color: #e8e8f0;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* ===== SCROLLBAR ===== */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #141425;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #6d28d9;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #7c3aed;
+        }
+
+        /* ===== CONTAINER ===== */
+        .container {
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* ===== HEADER / NAV ===== */
+        .header {
+            background: rgba(11, 11, 26, 0.92);
+            backdrop-filter: blur(18px);
+            -webkit-backdrop-filter: blur(18px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 14px 0;
+        }
+
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+        }
+
+        .logo-icon {
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #6d28d9, #a855f7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: 700;
+            color: #fff;
+            box-shadow: 0 8px 24px rgba(109, 40, 217, 0.35);
+        }
+
+        .logo-text {
+            font-size: 1.3rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #f0f0ff, #a78bfa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .logo-text span {
+            font-weight: 300;
+            -webkit-text-fill-color: rgba(255, 255, 255, 0.5);
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 28px;
+            flex-wrap: wrap;
+        }
+
+        .nav-links a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: 0.3s;
+            position: relative;
+        }
+        .nav-links a:hover {
+            color: #fff;
+        }
+        .nav-links a.active {
+            color: #a78bfa;
+        }
+        .nav-links a.active::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, #6d28d9, #a855f7);
+            border-radius: 4px;
+        }
+
+        .header-cta {
+            padding: 8px 20px;
+            border-radius: 40px;
+            background: linear-gradient(135deg, #6d28d9, #8b5cf6);
+            color: #fff !important;
+            font-weight: 600;
+            font-size: 0.85rem;
+            transition: 0.3s;
+            box-shadow: 0 4px 16px rgba(109, 40, 217, 0.3);
+        }
+        .header-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 28px rgba(109, 40, 217, 0.45);
+            color: #fff !important;
+        }
+
+        /* ===== HERO ===== */
+        .hero {
+            padding: 60px 0 48px;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -40%;
+            left: -20%;
+            width: 60%;
+            height: 80%;
+            background: radial-gradient(ellipse, rgba(109, 40, 217, 0.12) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            background: linear-gradient(135deg, #ffffff 30%, #a78bfa 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero p {
+            font-size: 1.15rem;
+            color: rgba(255, 255, 255, 0.6);
+            max-width: 640px;
+            margin: 12px auto 28px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            padding: 6px 18px;
+            border-radius: 40px;
+            background: rgba(109, 40, 217, 0.18);
+            border: 1px solid rgba(109, 40, 217, 0.25);
+            color: #a78bfa;
+            font-size: 0.8rem;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            margin-bottom: 16px;
+        }
+
+        /* ===== SEARCH BAR ===== */
+        .search-wrapper {
+            max-width: 720px;
+            margin: 0 auto 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 60px;
+            padding: 4px 4px 4px 20px;
+            backdrop-filter: blur(12px);
+            transition: 0.3s;
+        }
+        .search-bar:focus-within {
+            border-color: rgba(109, 40, 217, 0.4);
+            box-shadow: 0 0 0 4px rgba(109, 40, 217, 0.08);
+        }
+
+        .search-bar i {
+            color: rgba(255, 255, 255, 0.3);
+            font-size: 1rem;
+        }
+
+        .search-bar input {
+            flex: 1;
+            background: transparent;
+            border: none;
+            padding: 14px 16px;
+            color: #fff;
+            font-size: 1rem;
+            outline: none;
+        }
+        .search-bar input::placeholder {
+            color: rgba(255, 255, 255, 0.3);
+        }
+
+        .search-bar button {
+            padding: 10px 28px;
+            border-radius: 40px;
+            background: linear-gradient(135deg, #6d28d9, #8b5cf6);
+            border: none;
+            color: #fff;
+            font-weight: 600;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 0 4px 16px rgba(109, 40, 217, 0.25);
+        }
+        .search-bar button:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 28px rgba(109, 40, 217, 0.4);
+        }
+
+        /* ===== FILTERS / CATEGORIES ===== */
+        .filters-section {
+            margin: 12px 0 32px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .filter-label {
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.4);
+            font-weight: 500;
+            letter-spacing: 0.04em;
+            margin-right: 4px;
+        }
+
+        .filter-btn {
+            padding: 6px 18px;
+            border-radius: 40px;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.78rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: 0.3s;
+            font-family: inherit;
+        }
+        .filter-btn:hover {
+            background: rgba(109, 40, 217, 0.15);
+            border-color: rgba(109, 40, 217, 0.2);
+            color: #fff;
+        }
+        .filter-btn.active {
+            background: rgba(109, 40, 217, 0.2);
+            border-color: #6d28d9;
+            color: #a78bfa;
+        }
+
+        .filter-btn .count {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.06);
+            border-radius: 20px;
+            padding: 0 8px;
+            font-size: 0.65rem;
+            margin-left: 4px;
+            color: rgba(255, 255, 255, 0.3);
+        }
+
+        /* ===== STATS BAR ===== */
+        .stats-bar {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 32px 48px;
+            padding: 20px 0 32px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+            margin-bottom: 32px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+        .stat-item .number {
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #a78bfa, #6d28d9);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .stat-item .label {
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.35);
+            font-weight: 400;
+            letter-spacing: 0.02em;
+        }
+
+        /* ===== LOCALITY SECTIONS ===== */
+        .locality-section {
+            margin-bottom: 48px;
+            scroll-margin-top: 100px;
+        }
+
+        .locality-header {
+            display: flex;
+            align-items: baseline;
+            flex-wrap: wrap;
+            gap: 12px 20px;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .locality-header h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            background: linear-gradient(135deg, #ffffff, #c4b5fd);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .locality-header .sector-tag {
+            display: inline-block;
+            padding: 2px 14px;
+            border-radius: 20px;
+            background: rgba(109, 40, 217, 0.15);
+            border: 1px solid rgba(109, 40, 217, 0.15);
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 0.7rem;
+            font-weight: 500;
+            letter-spacing: 0.04em;
+        }
+
+        .locality-header .locality-count {
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.25);
+            margin-left: auto;
+        }
+
+        .locality-sub {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px 12px;
+            margin-bottom: 18px;
+        }
+
+        .locality-sub .sub-tag {
+            font-size: 0.7rem;
+            color: rgba(255, 255, 255, 0.25);
+            background: rgba(255, 255, 255, 0.03);
+            padding: 2px 12px;
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.04);
+        }
+
+        /* ===== AGENCY CARDS GRID ===== */
+        .agency-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 24px;
+        }
+
+        /* ===== GLASS CARD ===== */
+        .glass-card {
+            width: 100%;
+            height: 300px;
+            position: relative;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            overflow: hidden;
+            transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+                box-shadow 0.35s ease;
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .glass-card:hover {
+            transform: translateY(-8px) scale(1.01);
+            box-shadow: 0 24px 56px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(109, 40, 217, 0.15);
+        }
+
+        .glass-card .card-bg-glow {
+            width: 100%;
+            height: 100%;
+            padding: 4px;
+            position: absolute;
+            border-radius: 16px;
+            background: radial-gradient(ellipse at 30% 20%, rgba(109, 40, 217, 0.15), rgba(139, 92, 246, 0.05) 60%, transparent);
+            pointer-events: none;
+        }
+
+        .glass-card .card-bg-inner {
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+            border-top-right-radius: 80px;
+            border-bottom-right-radius: 32px;
+            background: rgba(20, 20, 40, 0.85);
+            backdrop-filter: blur(4px);
+            position: relative;
+        }
+
+        .glass-card .card-spinner {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            backdrop-filter: blur(12px);
+            border-radius: 16px;
+            z-index: 1;
+        }
+
+        .glass-card .card-spinner .spinner-ring {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: conic-gradient(from 0deg, #6d28d9, #a855f7, #f59e0b, #6d28d9);
+            animation: spin 12s linear infinite;
+            opacity: 0.25;
+            position: absolute;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .glass-card .card-spinner .spinner-ring-2 {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: conic-gradient(from 180deg, #0b0b1a, #6d28d9, #0b0b1a);
+            animation: spin 8s linear reverse infinite;
+            position: absolute;
+            opacity: 0.4;
+        }
+
+        .glass-card .card-content {
+            position: absolute;
+            inset: 0;
+            padding: 16px 18px 14px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            z-index: 2;
+            border-radius: 16px;
+            background: rgba(11, 11, 26, 0.35);
+            backdrop-filter: blur(2px);
+            transition: background 0.3s;
+        }
+
+        .glass-card:hover .card-content {
+            background: rgba(11, 11, 26, 0.15);
+        }
+
+        .glass-card .card-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .glass-card .card-title-block {
+            flex: 1;
+            padding-right: 8px;
+        }
+
+        .glass-card .card-title-block .badge {
+            display: inline-block;
+            font-size: 0.55rem;
+            font-weight: 600;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            padding: 2px 10px;
+            border-radius: 12px;
+            background: rgba(109, 40, 217, 0.25);
+            border: 1px solid rgba(109, 40, 217, 0.2);
+            color: #a78bfa;
+            margin-bottom: 4px;
+        }
+
+        .glass-card .card-title-block .badge.featured {
+            background: linear-gradient(135deg, #6d28d9, #a855f7);
+            border-color: transparent;
+            color: #fff;
+            box-shadow: 0 2px 12px rgba(109, 40, 217, 0.3);
+        }
+
+        .glass-card .card-title-block h3 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: #fff;
+            line-height: 1.2;
+            margin-bottom: 2px;
+        }
+
+        .glass-card .card-title-block .location-text {
+            font-size: 0.65rem;
+            color: rgba(255, 255, 255, 0.35);
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .glass-card .card-title-block .location-text i {
+            font-size: 0.5rem;
+        }
+
+        .glass-card .card-right {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: space-between;
+            height: 100%;
+            padding-top: 2px;
+        }
+
+        .glass-card .card-right .year {
+            font-size: 0.55rem;
+            color: rgba(255, 255, 255, 0.15);
+            font-weight: 300;
+            letter-spacing: 0.04em;
+        }
+
+        .glass-card .card-right .arrow-btn {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            backdrop-filter: blur(12px);
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: 0.3s;
+            color: rgba(255, 255, 255, 0.4);
+        }
+        .glass-card:hover .card-right .arrow-btn {
+            background: rgba(109, 40, 217, 0.2);
+            border-color: rgba(109, 40, 217, 0.2);
+            color: #fff;
+            transform: translateX(2px);
+        }
+        .glass-card .card-right .arrow-btn svg {
+            width: 14px;
+            height: 14px;
+        }
+
+        .glass-card .card-bottom {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .glass-card .card-bottom .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+        }
+
+        .glass-card .card-bottom .tags span {
+            font-size: 0.55rem;
+            padding: 1px 10px;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.04);
+            color: rgba(255, 255, 255, 0.25);
+            font-weight: 400;
+            letter-spacing: 0.02em;
+        }
+
+        .glass-card .card-bottom .cta-link {
+            font-size: 0.7rem;
+            color: #a78bfa;
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: 0.3s;
+            margin-top: 4px;
+        }
+        .glass-card .card-bottom .cta-link:hover {
+            color: #c4b5fd;
+            gap: 10px;
+        }
+
+        /* ===== NO RESULTS ===== */
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: rgba(255, 255, 255, 0.3);
+            display: none;
+        }
+        .no-results i {
+            font-size: 2.4rem;
+            margin-bottom: 16px;
+            opacity: 0.3;
+        }
+        .no-results h3 {
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.5);
+            margin-bottom: 6px;
+        }
+
+        /* ===== FOOTER ===== */
+        .footer {
+            padding: 40px 0 28px;
+            border-top: 1px solid rgba(255, 255, 255, 0.04);
+            margin-top: 40px;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.2);
+            font-size: 0.85rem;
+        }
+        .footer a {
+            color: #a78bfa;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            color: #c4b5fd;
+        }
+        .footer .footer-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 14px;
+        }
+        .footer .footer-links a {
+            color: rgba(255, 255, 255, 0.25);
+            font-size: 0.8rem;
+        }
+        .footer .footer-links a:hover {
+            color: #a78bfa;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 992px) {
+            .agency-grid {
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            }
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            .stats-bar {
+                gap: 20px 32px;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .header-inner {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            .nav-links {
+                justify-content: center;
+                gap: 14px;
+            }
+            .hero h1 {
+                font-size: 1.6rem;
+            }
+            .hero p {
+                font-size: 0.95rem;
+            }
+            .search-bar {
+                flex-wrap: wrap;
+                border-radius: 24px;
+                padding: 8px;
+                background: rgba(255, 255, 255, 0.04);
+            }
+            .search-bar input {
+                width: 100%;
+                padding: 12px 14px;
+                font-size: 0.9rem;
+            }
+            .search-bar button {
+                width: 100%;
+                padding: 12px;
+                border-radius: 20px;
+                font-size: 0.85rem;
+            }
+            .agency-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 14px;
+            }
+            .glass-card {
+                height: 260px;
+            }
+            .glass-card .card-title-block h3 {
+                font-size: 0.85rem;
+            }
+            .locality-header h2 {
+                font-size: 1.4rem;
+            }
+            .stats-bar .number {
+                font-size: 1.3rem;
+            }
+            .filters-section {
+                gap: 6px;
+            }
+            .filter-btn {
+                font-size: 0.65rem;
+                padding: 4px 12px;
+            }
+            .container {
+                padding: 0 14px;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .agency-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+            }
+            .glass-card {
+                height: 220px;
+            }
+            .glass-card .card-title-block h3 {
+                font-size: 0.75rem;
+            }
+            .glass-card .card-bottom .tags span {
+                font-size: 0.45rem;
+                padding: 0 6px;
+            }
+            .glass-card .card-right .arrow-btn {
+                width: 26px;
+                height: 26px;
+            }
+            .glass-card .card-right .arrow-btn svg {
+                width: 12px;
+                height: 12px;
+            }
+            .glass-card .card-content {
+                padding: 10px 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="#" class="logo">
+                <div class="logo-icon">B</div>
+                <div class="logo-text">Best<span>Digital</span></div>
+            </a>
+            <nav class="nav-links">
+                <a href="#" class="active">Home</a>
+                <a href="#localities">Localities</a>
+                <a href="#agencies">Agencies</a>
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="header-cta">Kalki Intelligence</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-badge">
+                <i class="fas fa-map-pin" style="margin-right:6px;"></i> Delhi NCR • 24 Districts • 300+ Localities
+            </div>
+            <h1>Best Digital Marketing Agencies<br />in Delhi NCR</h1>
+            <p>Discover top-rated digital marketing agencies across every locality, city, and sector of Delhi NCR. B2B directory with verified listings.</p>
+
+            <!-- Search Bar -->
+            <div class="search-wrapper">
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Search by locality, agency, or service..." />
+                    <button id="searchBtn"><i class="fas fa-arrow-right" style="margin-right:6px;"></i> Search</button>
+                </div>
+            </div>
+
+            <!-- Filters -->
+            <div class="filters-section" id="filterContainer">
+                <span class="filter-label"><i class="fas fa-sliders-h" style="margin-right:4px;"></i> Filter:</span>
+                <button class="filter-btn active" data-filter="all">All <span class="count" id="countAll">0</span></button>
+                <button class="filter-btn" data-filter="delhi">Delhi <span class="count" id="countDelhi">0</span></button>
+                <button class="filter-btn" data-filter="gurugram">Gurugram <span class="count" id="countGurugram">0</span></button>
+                <button class="filter-btn" data-filter="noida">Noida <span class="count" id="countNoida">0</span></button>
+                <button class="filter-btn" data-filter="greater-noida">Greater Noida <span class="count" id="countGreaterNoida">0</span></button>
+                <button class="filter-btn" data-filter="faridabad">Faridabad <span class="count" id="countFaridabad">0</span></button>
+                <button class="filter-btn" data-filter="ghaziabad">Ghaziabad <span class="count" id="countGhaziabad">0</span></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== STATS ===== -->
+    <div class="container">
+        <div class="stats-bar">
+            <div class="stat-item">
+                <div class="number" id="statAgencies">0</div>
+                <div class="label">Agencies Listed</div>
+            </div>
+            <div class="stat-item">
+                <div class="number" id="statLocalities">0</div>
+                <div class="label">Localities Covered</div>
+            </div>
+            <div class="stat-item">
+                <div class="number">24</div>
+                <div class="label">NCR Districts</div>
+            </div>
+            <div class="stat-item">
+                <div class="number">6</div>
+                <div class="label">Cities</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main class="container" id="mainContent">
+
+        <!-- ============================================================ -->
+        <!-- ===== DELHI ===== -->
+        <!-- ============================================================ -->
+        <section class="locality-section" data-city="delhi" id="locality-delhi">
+            <div class="locality-header">
+                <h2>Delhi — National Capital Territory</h2>
+                <span class="sector-tag">11 Districts</span>
+                <span class="locality-count" id="countDelhiLocalities">120+ localities</span>
+            </div>
+            <div class="locality-sub">
+                <span class="sub-tag">Central Delhi</span>
+                <span class="sub-tag">New Delhi</span>
+                <span class="sub-tag">South Delhi</span>
+                <span class="sub-tag">East Delhi</span>
+                <span class="sub-tag">West Delhi</span>
+                <span class="sub-tag">North Delhi</span>
+                <span class="sub-tag">North West Delhi</span>
+                <span class="sub-tag">South East Delhi</span>
+                <span class="sub-tag">South West Delhi</span>
+                <span class="sub-tag">North East Delhi</span>
+                <span class="sub-tag">Shahdara</span>
+            </div>
+
+            <!-- Agencies Grid -->
+            <div class="agency-grid" data-city="delhi">
+
+                <!-- Card 1: Kalki Intelligence (Featured) -->
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="kalki" data-locality="delhi">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge featured">★ Featured</span>
+                                <h3>Kalki Intelligence</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Delhi NCR</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2026</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags">
+                                <span>AI</span><span>SEO</span><span>PPC</span><span>Analytics</span>
+                            </div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Card 2 -->
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="techmagnate" data-locality="delhi">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Top Rated</span>
+                                <h3>Techmagnate</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> New Delhi</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2006</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>SEO</span><span>CRO</span><span>Content</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Card 3 -->
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="pagetraffic" data-locality="delhi">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Global</span>
+                                <h3>PageTraffic</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> New Delhi</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2002</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>SEO</span><span>International</span><span>Organic</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Card 4 -->
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="webdaksha" data-locality="delhi">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Creative</span>
+                                <h3>Webdaksha</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> South Delhi</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2010</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>Branding</span><span>UI/UX</span><span>Social</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Card 5 -->
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="reddash" data-locality="delhi">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Performance</span>
+                                <h3>Red Dash Media</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Central Delhi</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2015</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>PPC</span><span>Analytics</span><span>Growth</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Card 6 -->
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="watconsult" data-locality="delhi">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Social</span>
+                                <h3>WATConsult</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Gurugram / Delhi</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2007</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>Social Media</span><span>Influencer</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Card 7 -->
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="dentsu" data-locality="delhi">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Creative</span>
+                                <h3>Dentsu Webchutney</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> New Delhi</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2008</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>Branding</span><span>Omnichannel</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Card 8 -->
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="iprosepct" data-locality="delhi">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Data</span>
+                                <h3>iProspect India</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Gurugram</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2010</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>Analytics</span><span>Performance</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Card 9 -->
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="growzzy" data-locality="delhi">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Growth</span>
+                                <h3>Growzzy Media</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> West Delhi</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2018</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>SEO</span><span>Social</span><span>Content</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Card 10 -->
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="digii" data-locality="delhi">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Full-Service</span>
+                                <h3>Digii Store</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Paschim Vihar</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2016</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>Web Design</span><span>SEO</span><span>Social</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+            </div><!-- end agency-grid -->
+        </section>
+
+        <!-- ============================================================ -->
+        <!-- ===== GURUGRAM ===== -->
+        <!-- ============================================================ -->
+        <section class="locality-section" data-city="gurugram" id="locality-gurugram">
+            <div class="locality-header">
+                <h2>Gurugram (Gurgaon) — Millennium City</h2>
+                <span class="sector-tag">Sectors 1–115</span>
+                <span class="locality-count">60+ sectors</span>
+            </div>
+            <div class="locality-sub">
+                <span class="sub-tag">DLF Phase 1-5</span>
+                <span class="sub-tag">Golf Course Road</span>
+                <span class="sub-tag">Sohna Road</span>
+                <span class="sub-tag">Cyber City</span>
+                <span class="sub-tag">Udyog Vihar</span>
+                <span class="sub-tag">MG Road</span>
+                <span class="sub-tag">Sector 14</span>
+                <span class="sub-tag">Sector 29</span>
+                <span class="sub-tag">Sector 56</span>
+            </div>
+
+            <div class="agency-grid" data-city="gurugram">
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="kalki-gur" data-locality="gurugram">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge featured">★ Featured</span>
+                                <h3>Kalki Intelligence</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Gurugram NCR</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2026</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>AI</span><span>SEO</span><span>PPC</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="wat-gur" data-locality="gurugram">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Social</span>
+                                <h3>WATConsult</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Gurugram</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2007</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>Social Media</span><span>Influencer</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="iprosepct-gur" data-locality="gurugram">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Data</span>
+                                <h3>iProspect India</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Gurugram</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2010</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>Analytics</span><span>Performance</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="dentsu-gur" data-locality="gurugram">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Creative</span>
+                                <h3>Dentsu Webchutney</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Gurugram</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2008</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>Branding</span><span>Omnichannel</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="adglobal-gur" data-locality="gurugram">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Growth</span>
+                                <h3>AdGlobal360</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Gurugram</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2012</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>Analytics</span><span>Growth</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- ============================================================ -->
+        <!-- ===== NOIDA ===== -->
+        <!-- ============================================================ -->
+        <section class="locality-section" data-city="noida" id="locality-noida">
+            <div class="locality-header">
+                <h2>Noida — Gautam Buddha Nagar</h2>
+                <span class="sector-tag">Sectors 1–168</span>
+                <span class="locality-count">168 sectors</span>
+            </div>
+            <div class="locality-sub">
+                <span class="sub-tag">Sector 62</span>
+                <span class="sub-tag">Sector 63</span>
+                <span class="sub-tag">Sector 64</span>
+                <span class="sub-tag">Sector 65</span>
+                <span class="sub-tag">Sector 66</span>
+                <span class="sub-tag">Sector 44</span>
+                <span class="sub-tag">Sector 50</span>
+                <span class="sub-tag">Sector 137</span>
+                <span class="sub-tag">Noida Extension</span>
+            </div>
+
+            <div class="agency-grid" data-city="noida">
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="kalki-noida" data-locality="noida">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge featured">★ Featured</span>
+                                <h3>Kalki Intelligence</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Noida</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2026</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>AI</span><span>SEO</span><span>PPC</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="pixel-noida" data-locality="noida">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Creative</span>
+                                <h3>Pixel Storm Digital</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Noida</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2017</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>Web Design</span><span>Social</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="velocity-noida" data-locality="noida">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Growth</span>
+                                <h3>Velocity Marketers</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Noida</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2019</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>Lead Gen</span><span>CRO</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="northstar-noida" data-locality="noida">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Branding</span>
+                                <h3>NorthStar Digital</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Noida</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2015</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>Strategy</span><span>Branding</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="apex-noida" data-locality="noida">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Analytics</span>
+                                <h3>Apex Growth Studio</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Noida</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2020</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>Analytics</span><span>Enterprise</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- ============================================================ -->
+        <!-- ===== GREATER NOIDA ===== -->
+        <!-- ============================================================ -->
+        <section class="locality-section" data-city="greater-noida" id="locality-greater-noida">
+            <div class="locality-header">
+                <h2>Greater Noida</h2>
+                <span class="sector-tag">Sectors 1–36 + Ecotech</span>
+                <span class="locality-count">40+ sectors</span>
+            </div>
+            <div class="locality-sub">
+                <span class="sub-tag">Pari Chowk</span>
+                <span class="sub-tag">Alpha 1-2</span>
+                <span class="sub-tag">Omega 1</span>
+                <span class="sub-tag">Knowledge Park</span>
+                <span class="sub-tag">Techzone 4</span>
+                <span class="sub-tag">Greater Noida West</span>
+            </div>
+
+            <div class="agency-grid" data-city="greater-noida">
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="kalki-gn" data-locality="greater-noida">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge featured">★ Featured</span>
+                                <h3>Kalki Intelligence</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Greater Noida</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2026</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>AI</span><span>SEO</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="insidea-gn" data-locality="greater-noida">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Strategy</span>
+                                <h3>INSIDEA</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Greater Noida</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2018</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>Strategy</span><span>Branding</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="moris-gn" data-locality="greater-noida">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Full-Service</span>
+                                <h3>Moris Media</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Greater Noida</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2012</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>Integrated</span><span>Brand</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="lapa-gn" data-locality="greater-noida">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Creative</span>
+                                <h3>LapaOne</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Greater Noida</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2020</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>Creative</span><span>Performance</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="brainguru-gn" data-locality="greater-noida">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">SEO</span>
+                                <h3>Brainguru Tech</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Greater Noida</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2016</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>SEO</span><span>Local</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- ============================================================ -->
+        <!-- ===== FARIDABAD ===== -->
+        <!-- ============================================================ -->
+        <section class="locality-section" data-city="faridabad" id="locality-faridabad">
+            <div class="locality-header">
+                <h2>Faridabad</h2>
+                <span class="sector-tag">Sectors 1–89</span>
+                <span class="locality-count">89 sectors</span>
+            </div>
+            <div class="locality-sub">
+                <span class="sub-tag">Sector 14</span>
+                <span class="sub-tag">Sector 15</span>
+                <span class="sub-tag">Sector 28</span>
+                <span class="sub-tag">Sector 37</span>
+                <span class="sub-tag">Sector 43</span>
+                <span class="sub-tag">Sector 64</span>
+                <span class="sub-tag">Sector 72</span>
+                <span class="sub-tag">Ashoka Enclave</span>
+            </div>
+
+            <div class="agency-grid" data-city="faridabad">
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="kalki-fbd" data-locality="faridabad">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge featured">★ Featured</span>
+                                <h3>Kalki Intelligence</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Faridabad</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2026</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>AI</span><span>SEO</span><span>Growth</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="touchstone-fbd" data-locality="faridabad">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">IT &amp; Digital</span>
+                                <h3>Touchstone Infotech</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Faridabad</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2005</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>Web Dev</span><span>Digital</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="k2-fbd" data-locality="faridabad">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Performance</span>
+                                <h3>K2 Digital</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Faridabad</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2014</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>Social</span><span>Analytics</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="jvc-fbd" data-locality="faridabad">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Creative</span>
+                                <h3>Jai Veeru Creatives</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Faridabad</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2019</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>Branding</span><span>Creative</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="oipl-fbd" data-locality="faridabad">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Full-Service</span>
+                                <h3>OIPL</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Faridabad</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2000</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>Web</span><span>SEO</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- ============================================================ -->
+        <!-- ===== GHAZIABAD ===== -->
+        <!-- ============================================================ -->
+        <section class="locality-section" data-city="ghaziabad" id="locality-ghaziabad">
+            <div class="locality-header">
+                <h2>Ghaziabad</h2>
+                <span class="sector-tag">Sectors 1–18 + Vasundhara</span>
+                <span class="locality-count">18 sectors + 5 zones</span>
+            </div>
+            <div class="locality-sub">
+                <span class="sub-tag">Indirapuram</span>
+                <span class="sub-tag">Vaishali</span>
+                <span class="sub-tag">Vasundhara</span>
+                <span class="sub-tag">Raj Nagar</span>
+                <span class="sub-tag">Kavi Nagar</span>
+                <span class="sub-tag">Mohan Nagar</span>
+                <span class="sub-tag">Vijay Nagar</span>
+            </div>
+
+            <div class="agency-grid" data-city="ghaziabad">
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="kalki-ghz" data-locality="ghaziabad">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge featured">★ Featured</span>
+                                <h3>Kalki Intelligence</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Ghaziabad</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2026</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>AI</span><span>SEO</span><span>Local</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="bizchakra-ghz" data-locality="ghaziabad">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Startup</span>
+                                <h3>Bizchakra</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Ghaziabad</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2017</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>Digital</span><span>Growth</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="growzzy-ghz" data-locality="ghaziabad">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Performance</span>
+                                <h3>Growzzy Media</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Ghaziabad</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2018</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>SEO</span><span>Social</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="digii-ghz" data-locality="ghaziabad">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">Full-Service</span>
+                                <h3>Digii Store</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Ghaziabad</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2016</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>Web</span><span>SEO</span><span>Social</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="glass-card" data-agency="candour-ghz" data-locality="ghaziabad">
+                    <div class="card-bg-glow"></div>
+                    <div class="card-bg-inner"></div>
+                    <div class="card-spinner">
+                        <div class="spinner-ring"></div>
+                        <div class="spinner-ring-2"></div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-top">
+                            <div class="card-title-block">
+                                <span class="badge">B2B</span>
+                                <h3>Candour Comm.</h3>
+                                <div class="location-text"><i class="fas fa-map-marker-alt"></i> Ghaziabad</div>
+                            </div>
+                            <div class="card-right">
+                                <span class="year">2013</span>
+                                <div class="arrow-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><g fill="none"><path d="M4.646 2.146a.5.5 0 0 0 0 .708L7.793 6L4.646 9.146a.5.5 0 1 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" fill="currentColor"/></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="tags"><span>B2B</span><span>Tech</span></div>
+                            <span class="cta-link">Visit Website →</span>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- ===== NO RESULTS ===== -->
+        <div class="no-results" id="noResults">
+            <i class="fas fa-search"></i>
+            <h3>No agencies found</h3>
+            <p>Try adjusting your search or filter criteria.</p>
+        </div>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="#localities">Localities</a>
+                <a href="#agencies">Agencies</a>
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer">Kalki Intelligence</a>
+            </div>
+            <p>© 2026 Best Digital Marketing in India — <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer">Kalki Intelligence</a></p>
+            <p style="font-size:0.7rem; margin-top:6px; opacity:0.4;">All agency cards link to kalki-intelligence.in for directory purposes. Fully Google-compliant.</p>
+        </div>
+    </footer>
+
+    <!-- ============================================================ -->
+    <!-- ===== JAVASCRIPT ===== -->
+    <!-- ============================================================ -->
+    <script>
+        (function() {
+            'use strict';
+
+            // ----- DOM refs -----
+            const searchInput = document.getElementById('searchInput');
+            const searchBtn = document.getElementById('searchBtn');
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const allCards = document.querySelectorAll('.glass-card');
+            const localitySections = document.querySelectorAll('.locality-section');
+            const noResults = document.getElementById('noResults');
+
+            // Stat counters
+            const statAgencies = document.getElementById('statAgencies');
+            const statLocalities = document.getElementById('statLocalities');
+            const countAll = document.getElementById('countAll');
+            const countDelhi = document.getElementById('countDelhi');
+            const countGurugram = document.getElementById('countGurugram');
+            const countNoida = document.getElementById('countNoida');
+            const countGreaterNoida = document.getElementById('countGreaterNoida');
+            const countFaridabad = document.getElementById('countFaridabad');
+            const countGhaziabad = document.getElementById('countGhaziabad');
+
+            // ----- Helpers -----
+            function getCityFromCard(card) {
+                const parent = card.closest('.agency-grid');
+                return parent ? parent.dataset.city : 'all';
+            }
+
+            function getCityFromSection(section) {
+                return section ? section.dataset.city : 'all';
+            }
+
+            function updateCounts() {
+                const total = allCards.length;
+                const counts = {
+                    all: total,
+                    delhi: 0,
+                    gurugram: 0,
+                    noida: 0,
+                    'greater-noida': 0,
+                    faridabad: 0,
+                    ghaziabad: 0
+                };
+
+                allCards.forEach(card => {
+                    const city = getCityFromCard(card);
+                    if (city && counts.hasOwnProperty(city)) {
+                        counts[city]++;
+                    }
+                });
+
+                if (countAll) countAll.textContent = counts.all;
+                if (countDelhi) countDelhi.textContent = counts.delhi;
+                if (countGurugram) countGurugram.textContent = counts.gurugram;
+                if (countNoida) countNoida.textContent = counts.noida;
+                if (countGreaterNoida) countGreaterNoida.textContent = counts['greater-noida'];
+                if (countFaridabad) countFaridabad.textContent = counts.faridabad;
+                if (countGhaziabad) countGhaziabad.textContent = counts.ghaziabad;
+
+                if (statAgencies) statAgencies.textContent = total;
+                if (statLocalities) {
+                    // Count unique locality sections with at least one card
+                    let visibleLocalities = 0;
+                    localitySections.forEach(section => {
+                        const grid = section.querySelector('.agency-grid');
+                        if (grid && grid.querySelectorAll('.glass-card').length > 0) {
+                            visibleLocalities++;
+                        }
+                    });
+                    statLocalities.textContent = visibleLocalities || localitySections.length;
+                }
+            }
+
+            // ----- Filter + Search -----
+            function filterAndSearch() {
+                const query = searchInput.value.toLowerCase().trim();
+                const activeFilter = document.querySelector('.filter-btn.active');
+                const filterCity = activeFilter ? activeFilter.dataset.filter : 'all';
+
+                let anyVisible = false;
+
+                allCards.forEach(card => {
+                    const cardCity = getCityFromCard(card);
+                    const agencyName = (card.dataset.agency || '').toLowerCase();
+                    const locality = (card.dataset.locality || '').toLowerCase();
+                    const content = card.textContent.toLowerCase();
+
+                    const matchesFilter = (filterCity === 'all' || cardCity === filterCity);
+                    const matchesSearch = !query ||
+                        agencyName.includes(query) ||
+                        locality.includes(query) ||
+                        content.includes(query);
+
+                    const visible = matchesFilter && matchesSearch;
+                    card.style.display = visible ? '' : 'none';
+                    if (visible) anyVisible = true;
+                });
+
+                // Show/hide locality sections based on visible children
+                localitySections.forEach(section => {
+                    const grid = section.querySelector('.agency-grid');
+                    if (!grid) return;
+                    const visibleCards = grid.querySelectorAll('.glass-card[style*="display: none"]');
+                    const totalCards = grid.querySelectorAll('.glass-card').length;
+                    const hasVisible = visibleCards.length < totalCards;
+                    // Actually check if any card is visible
+                    let anyCardVisible = false;
+                    grid.querySelectorAll('.glass-card').forEach(c => {
+                        if (c.style.display !== 'none') anyCardVisible = true;
+                    });
+                    section.style.display = anyCardVisible ? '' : 'none';
+                });
+
+                // No results message
+                if (noResults) {
+                    const totalVisible = Array.from(allCards).filter(c => c.style.display !== 'none').length;
+                    noResults.style.display = (totalVisible === 0) ? 'block' : 'none';
+                }
+            }
+
+            // ----- Event listeners -----
+            if (searchBtn) {
+                searchBtn.addEventListener('click', filterAndSearch);
+            }
+            if (searchInput) {
+                searchInput.addEventListener('keyup', function(e) {
+                    if (e.key === 'Enter') filterAndSearch();
+                });
+                searchInput.addEventListener('input', filterAndSearch);
+            }
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    filterAndSearch();
+                });
+            });
+
+            // ----- Init -----
+            updateCounts();
+            filterAndSearch();
+
+            // Re-run counts after any DOM changes (safe)
+            const observer = new MutationObserver(function() {
+                updateCounts();
+            });
+            document.querySelectorAll('.agency-grid').forEach(grid => {
+                observer.observe(grid, { childList: true, subtree: true });
+            });
+
+        })();
+    </script>
+
+</body>
+</html>
