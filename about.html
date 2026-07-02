@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About &amp; Contact — Best Digital Marketing in India</title>
+    <meta name="description" content="Learn about our B2B directory of digital marketing agencies in Delhi NCR. Get in touch for partnerships or inquiries." />
+    <link rel="canonical" href="https://best-digital-marketing-in-india.vercel.app/about.html" />
+    <meta property="og:title" content="About &amp; Contact — Best Digital Marketing in India" />
+    <meta property="og:description" content="Learn about our B2B directory of digital marketing agencies in Delhi NCR." />
+    <meta property="og:url" content="https://best-digital-marketing-in-india.vercel.app/about.html" />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0b0b1a; color: #e8e8f0; line-height: 1.6; min-height: 100vh; }
+        ::-webkit-scrollbar { width:8px; }
+        ::-webkit-scrollbar-track { background:#141425; }
+        ::-webkit-scrollbar-thumb { background:#6d28d9; border-radius:10px; }
+        .container { max-width:1200px; margin:0 auto; padding:0 24px; }
+
+        /* Header */
+        .header { background:rgba(11,11,26,0.92); backdrop-filter:blur(18px); border-bottom:1px solid rgba(255,255,255,0.06); position:sticky; top:0; z-index:1000; padding:14px 0; }
+        .header-inner { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px; }
+        .logo { display:flex; align-items:center; gap:10px; text-decoration:none; }
+        .logo-icon { width:44px; height:44px; border-radius:12px; background:linear-gradient(135deg,#6d28d9,#a855f7); display:flex; align-items:center; justify-content:center; font-size:20px; font-weight:700; color:#fff; box-shadow:0 8px 24px rgba(109,40,217,0.35); }
+        .logo-text { font-size:1.3rem; font-weight:700; background:linear-gradient(135deg,#f0f0ff,#a78bfa); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+        .logo-text span { font-weight:300; -webkit-text-fill-color:rgba(255,255,255,0.5); }
+        .nav-links { display:flex; align-items:center; gap:28px; flex-wrap:wrap; }
+        .nav-links a { color:rgba(255,255,255,0.7); text-decoration:none; font-size:0.9rem; font-weight:500; transition:0.3s; }
+        .nav-links a:hover { color:#fff; }
+        .nav-links a.active { color:#a78bfa; position:relative; }
+        .nav-links a.active::after { content:''; position:absolute; bottom:-4px; left:0; width:100%; height:2px; background:linear-gradient(90deg,#6d28d9,#a855f7); border-radius:4px; }
+        .header-cta { padding:8px 20px; border-radius:40px; background:linear-gradient(135deg,#6d28d9,#8b5cf6); color:#fff !important; font-weight:600; font-size:0.85rem; transition:0.3s; box-shadow:0 4px 16px rgba(109,40,217,0.3); }
+        .header-cta:hover { transform:translateY(-2px); box-shadow:0 8px 28px rgba(109,40,217,0.45); color:#fff !important; }
+
+        /* Page content */
+        .page-section { padding:48px 0; }
+        .page-section h1 { font-size:2.4rem; font-weight:800; background:linear-gradient(135deg,#ffffff,#a78bfa); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; margin-bottom:8px; }
+        .page-section .subhead { color:rgba(255,255,255,0.5); font-size:1.1rem; margin-bottom:32px; }
+
+        .two-col { display:grid; grid-template-columns:1fr 1fr; gap:40px; }
+        @media (max-width:768px) { .two-col { grid-template-columns:1fr; } }
+
+        .card { background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.04); border-radius:16px; padding:28px; }
+        .card h2 { font-size:1.4rem; margin-bottom:16px; color:#fff; }
+        .card p { color:rgba(255,255,255,0.6); margin-bottom:12px; }
+        .card ul { list-style:none; padding:0; }
+        .card ul li { padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.04); color:rgba(255,255,255,0.6); display:flex; align-items:center; gap:10px; }
+        .card ul li i { color:#a78bfa; width:20px; }
+
+        .contact-form label { display:block; margin:12px 0 4px; font-size:0.85rem; color:rgba(255,255,255,0.5); }
+        .contact-form input, .contact-form textarea { width:100%; padding:12px 16px; background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.06); border-radius:10px; color:#fff; font-family:inherit; outline:none; transition:0.3s; }
+        .contact-form input:focus, .contact-form textarea:focus { border-color:rgba(109,40,217,0.4); box-shadow:0 0 0 3px rgba(109,40,217,0.08); }
+        .contact-form textarea { height:120px; resize:vertical; }
+        .contact-form button { margin-top:16px; padding:12px 32px; border-radius:40px; background:linear-gradient(135deg,#6d28d9,#8b5cf6); border:none; color:#fff; font-weight:600; font-size:1rem; cursor:pointer; transition:0.3s; }
+        .contact-form button:hover { transform:translateY(-2px); box-shadow:0 8px 28px rgba(109,40,217,0.3); }
+
+        .map-container { border-radius:16px; overflow:hidden; border:1px solid rgba(255,255,255,0.04); margin-top:20px; }
+        .map-container iframe { width:100%; height:300px; border:0; }
+
+        .feature-list { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:20px; }
+        .feature-item { background:rgba(255,255,255,0.02); border-radius:12px; padding:16px; border:1px solid rgba(255,255,255,0.03); }
+        .feature-item i { color:#a78bfa; font-size:1.4rem; margin-bottom:6px; display:block; }
+        .feature-item h4 { color:#fff; font-size:1rem; }
+        .feature-item p { font-size:0.85rem; color:rgba(255,255,255,0.4); }
+
+        .footer { padding:40px 0 28px; border-top:1px solid rgba(255,255,255,0.04); margin-top:40px; text-align:center; color:rgba(255,255,255,0.2); font-size:0.85rem; }
+        .footer a { color:#a78bfa; text-decoration:none; }
+        .footer a:hover { color:#c4b5fd; }
+        .footer .footer-links { display:flex; flex-wrap:wrap; justify-content:center; gap:20px; margin-bottom:14px; }
+        .footer .footer-links a { color:rgba(255,255,255,0.25); font-size:0.8rem; }
+        .footer .footer-links a:hover { color:#a78bfa; }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">B</div>
+                <div class="logo-text">Best<span>Digital</span></div>
+            </a>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="agencies.html">Agencies</a>
+                <a href="about.html" class="active">About &amp; Contact</a>
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" class="header-cta">Kalki Intelligence</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="page-section">
+            <h1><i class="fas fa-info-circle" style="margin-right:12px; color:#6d28d9;"></i> About This Directory</h1>
+            <p class="subhead">Connecting businesses with the best digital marketing agencies across Delhi NCR.</p>
+
+            <div class="two-col">
+                <!-- Left: About -->
+                <div class="card">
+                    <h2><i class="fas fa-bullseye" style="margin-right:8px; color:#a78bfa;"></i> Our Mission</h2>
+                    <p>We are a B2B directory dedicated to showcasing the top digital marketing agencies in Delhi, Gurugram, Noida, Greater Noida, Faridabad, Ghaziabad, and all NCR regions. Our goal is to help businesses find the right partner for their digital growth.</p>
+                    <p>Every agency listed here has been vetted for quality, service range, and reputation. We update our data regularly to ensure accuracy.</p>
+
+                    <div class="feature-list">
+                        <div class="feature-item">
+                            <i class="fas fa-city"></i>
+                            <h4>300+ Localities</h4>
+                            <p>Every sector and neighborhood covered</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-users"></i>
+                            <h4>24+ Agencies</h4>
+                            <p>Growing directory of trusted partners</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-star"></i>
+                            <h4>Verified Ratings</h4>
+                            <p>Real client feedback and performance data</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-link"></i>
+                            <h4>Direct Connections</h4>
+                            <p>One-click to agency websites</p>
+                        </div>
+                    </div>
+
+                    <div style="margin-top:24px; padding:16px; background:rgba(109,40,217,0.08); border-radius:12px; border-left:4px solid #6d28d9;">
+                        <p style="color:rgba(255,255,255,0.7); font-size:0.9rem;"><strong style="color:#a78bfa;">Featured Partner:</strong> <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer" style="color:#a78bfa; text-decoration:none;">Kalki Intelligence</a> — AI-powered digital marketing for modern businesses.</p>
+                    </div>
+                </div>
+
+                <!-- Right: Contact & Map -->
+                <div class="card">
+                    <h2><i class="fas fa-envelope" style="margin-right:8px; color:#a78bfa;"></i> Get in Touch</h2>
+                    <p>Have a question, suggestion, or want to list your agency? Fill out the form below or reach out directly.</p>
+
+                    <form class="contact-form" action="#" method="POST">
+                        <label for="name">Your Name *</label>
+                        <input type="text" id="name" placeholder="John Doe" required />
+
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" placeholder="john@example.com" required />
+
+                        <label for="message">Message *</label>
+                        <textarea id="message" placeholder="Tell us how we can help..."></textarea>
+
+                        <button type="submit"><i class="fas fa-paper-plane" style="margin-right:8px;"></i> Send Message</button>
+                    </form>
+
+                    <div style="margin-top:24px;">
+                        <p style="color:rgba(255,255,255,0.4); font-size:0.85rem;"><i class="fas fa-phone" style="margin-right:8px;"></i> +91-98765-43210</p>
+                        <p style="color:rgba(255,255,255,0.4); font-size:0.85rem;"><i class="fas fa-envelope" style="margin-right:8px;"></i> info@bestdigitalmarketing.in</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Map Section -->
+            <div style="margin-top:40px;">
+                <div class="card">
+                    <h2><i class="fas fa-map-marked-alt" style="margin-right:8px; color:#a78bfa;"></i> Our Coverage Area</h2>
+                    <p>We serve the entire Delhi National Capital Region (NCR) including Delhi, Gurugram, Noida, Greater Noida, Faridabad, Ghaziabad, and surrounding districts.</p>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112115.36760875818!2d77.10202276169019!3d28.52436785007849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5a1b1c4a6f%3A0x9c2c5e9a5f5b6a1b!2sDelhi%2C%20India!5e0!3m2!1sen!2sus!4v1740000000000" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="agencies.html">Agencies</a>
+                <a href="about.html">About &amp; Contact</a>
+                <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer">Kalki Intelligence</a>
+            </div>
+            <p>© 2026 Best Digital Marketing in India — <a href="https://kalki-intelligence.in" target="_blank" rel="noopener noreferrer">Kalki Intelligence</a></p>
+            <p style="font-size:0.7rem; margin-top:6px; opacity:0.4;">All agency links redirect to kalki-intelligence.in for directory purposes.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple form submission prevention (demo)
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! We will get back to you soon.');
+            this.reset();
+        });
+    </script>
+
+</body>
+</html>
