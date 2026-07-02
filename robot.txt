@@ -1,0 +1,40 @@
+# ==================================================
+#  ROBOTS.TXT — ENTERPRISE CRAWL STRATEGY
+#  Domain: best-digital-marketing-in-india.vercel.app
+#  Optimized for Googlebot, Bingbot, and General Bots
+# ==================================================
+
+# --- GLOBAL RULES (Applies to all respectful bots) ---
+User-agent: *
+Allow: /
+
+# Block admin or duplicate content fragments (if any)
+Disallow: /404.html
+Disallow: /*.json$
+Disallow: /_next/          # (In case you upgrade to Next.js)
+Disallow: /api/
+
+# --- CRAWL DELAY: Respectful timing for shared hosting ---
+Crawl-delay: 1.0
+
+# --- GOOGLEBOT SPECIFIC (Faster, higher priority) ---
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0.5           # Optimized for Vercel's fast response times
+# Request indexing of images & JS for full rendering
+User-agent: Googlebot-Image
+Allow: /
+
+# --- BINGBOT SPECIFIC ---
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1.0
+
+# --- SEO CRITICAL: SITEMAP LOCATION ---
+Sitemap: https://best-digital-marketing-in-india.vercel.app/sitemap.xml
+
+# ==================================================
+#  CRAWL BUDGET OPTIMIZATION NOTE:
+#  We only block non-essential paths. All locality 
+#  pages are explicitly allowed for maximum indexing.
+# ==================================================
